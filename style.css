@@ -1,0 +1,55 @@
+body {
+    background: grey;
+}
+
+.grid {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+    background-color: rgb(87, 144, 0);
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.snake {
+    background-color: rebeccapurple;
+}
+
+.apple {
+    background-color: skyblue;
+    border-radius: 50%;
+}
+
+.start,
+.score,
+.result {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.start {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.score {
+    color: white;
+    font-size: 24px;
+}
+
+.result {
+    color: yellow;
+    padding: 10px;
+}
+
+.start:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
