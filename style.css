@@ -1,5 +1,6 @@
 body {
     background: grey;
+    text-align: center;
 }
 
 .grid {
@@ -7,6 +8,7 @@ body {
     height: 400px;
     display: flex;
     flex-wrap: wrap;
+    margin: auto;
     border-style: solid;
     background-color: rgb(87, 144, 0);
 }
